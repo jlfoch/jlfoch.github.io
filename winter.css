@@ -1,0 +1,101 @@
+body {
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: tan;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header {
+    padding: 40px;
+    background-color: lightblue;
+}
+
+nav {
+    background-color: saddlebrown;
+    padding: 20px;
+    text-align: center;
+}
+
+#winter nav,
+#winter footer {
+    background-color: blue;
+}
+
+
+nav a {
+    color: white;
+    font-family: Verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav a:hover {
+    background-color: cadetblue;
+    color: brown;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto;
+}
+
+section h1,
+section h2 {
+    color: black;
+    font-family: Verdana;
+    font-size: 180%;
+}
+
+section h2 {
+    color: #08088A;
+    font-size: 140%;
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.grape {
+    width: 30%;
+    float: right;
+}
+
+.button {
+    background-color: #31B404;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a.button:hover {
+    background-color: green;
+}
