@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    font-family: Verdana, sans-serif;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+}
+
+nav,
+footer {
+    padding: 1.6%;
+}
+
+header {
+    background-color: blue;
+}
+
+nav,
+footer {
+    background-color: #0EC8C7;
+    text-align: center;
+
+}
+
+nav ul,
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li,
+footer li {
+    display: inline;
+}
+
+
+footer a,
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1.6% 4.6%;
+}
+
+nav a:hover {
+    background-color: #EC3632;
+}
+
+h1 {
+    font-size: 1.875em;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3,
+h4 {
+    font-size: 20px;
+}
+
+section {
+    background-color: #EC3632;
+    overflow: auto;
+}
+
+aside {
+    background-color: #EC3632;
+    width: 24%;
+    float: left;
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+}
+
+aside li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+article {
+    background-color: white;
+    width: 70%;
+    float: right;
+    padding: 3%;
+}
+
+footer {
+    background-color: #0EC8C7;
+}
+
+footer a {
+    font-size: 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.buy {
+    width: 30%;
+    float: right;
+    padding: 0 0 2% 2%;
+}
+
+header img {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-color: whitesmoke;
+    }
+
+    $wrap {
+        width: 100%;
+    }
+
+    nav li,
+        {
+        display: block;
+
+    }
+
+
+    nav a,
+    footer a {
+        width: 100%;
+        padding: 15px 0;
+        display: block;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    aside,
+    article {
+        float: none;
+        width: 94%;
+    }
+
+    .buy {
+        width: 99%;
+        float: none;
+    }
+
+    aside {
+        text-align: center;
+    }
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
