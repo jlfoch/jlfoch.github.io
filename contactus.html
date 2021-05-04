@@ -1,0 +1,151 @@
+<!DOCTYPLE html>
+    <html>
+
+    <head>
+        <title>Contact Us</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2PFNELFZV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-N2PFNELFZV');
+
+        </script>
+        <link href="contactus.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div id="wrap">
+
+            <header>
+                <img src="fishingm.jpeg" alt="Montana River">
+            </header>
+
+
+            <nav>
+                <ul>
+                    <li><a href="finalhome.html">Home</a></li>
+                    <li><a href="waters.html">Waters</a></li>
+                    <li><a href="flies.html">Flies</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+
+
+
+            <section>
+
+                <form method="post" action="../table.html">
+                    <fieldset>
+                        <ledgend>Have a question or comment?</ledgend>
+                        <p>
+                            <lable for="fname">First Name</lable><br>
+                            <input type="text" id="fname" name="fname" required>
+                        </p>
+
+                        <p>
+                            <lable for="lname">Last Name</lable><br>
+                            <input type="text" id="lname" name="lname" required>
+                        </p>
+
+                        <p>
+                            <lable for="email">Email</lable><br>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+
+                        <p>
+                            <lable for="phone">Phone number</lable><br>
+                            <input type="tel" id="phone" name="phone" required>
+                        </p>
+
+                        <p>How did you hear about us?</p>
+
+                        <p>
+
+                            <input type="checkbox" id="maps" name="howhear" value="Google Maps">
+                            <lable for="maps">Fly Shop</lable><br>
+
+                            <input type="checkbox" id="friend" name="howhear" value="Friend">
+                            <lable for="friend">Friend</lable><br>
+
+                            <input type="checkbox" id="search" name="howhear" value="Search Engine">
+                            <lable for="search">Search Engine</lable><br>
+
+                            <input type="checkbox" id="social" name="howhear" value="Social Media">
+                            <lable for="social">Social Media</lable><br>
+
+                            <input type="checkbox" id="other" name="howhear" value="Other">
+                            <lable for="other">Other</lable>
+                        </p>
+
+                        <p>Have you ordered from us before?</p>
+
+                        <input type="radio" name="before" id="yes" value="yes">
+                        <lable for="yes">Yes</lable><br>
+                        <input type="radio" name="before" id="no" value="no">
+                        <lable for="no">No</lable>
+
+                        <p>What is your favorite place to fish?</p>
+
+                        <select id="Water">
+                            <option value="none">Large River</option>
+                            <option value="Thursday">Small River</option>
+                            <option value="Friday">Lake</option>
+                            <option value="Saturday">Ocean</option>
+                            <option value="Sunday">Creek</option>
+                        </select>
+
+
+
+                        <p>Are you coming to our clinic on May 16, 2021 at Houser Dam?</p>
+
+                        <input type="radio" name="before" id="yes" value="yes">
+                        <lable for="yes">Yes</lable><br>
+                        <input type="radio" name="before" id="no" value="no">
+                        <lable for="no">No</lable>
+                        <input type="radio" name="before" id="maybe" value="maybe">
+                        <lable for="Maybe">Maybe</lable>
+
+                        <p>Will you like to sign up for our clinic on May 16, 2021 at Houser Dam? </p>
+
+                        <input type="radio" name="before" id="yes" value="yes">
+                        <lable for="yes">Yes</lable><br>
+                        <input type="radio" name="before" id="no" value="no">
+                        <lable for="no">No</lable>
+
+
+
+
+
+                        <iframe class="vid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.9978682673814!2d-111.8880123843985!3d46.764938479137875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x534344c3c65234e9%3A0x77e32272d2107f1a!2sHauser%20Dam%2C%20Helena%2C%20MT%2059602!5e0!3m2!1sen!2sus!4v1618507559276!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                        <p>Please leave any additional comments.</p>
+
+                        <textarea name="comments" id="comments" placeholder="comments">  </textarea>
+
+                        <p><input type="submit" value="Submit Comments"></p>
+
+
+                    </fieldset>
+                </form>
+
+            </section>
+
+
+
+        </div>
+        <!--wrap close-->
+    </body>
+
+
+    </html>
